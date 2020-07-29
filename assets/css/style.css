@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: #707070;
+}
+
+/*Font*/
+h2 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 1.0625rem; 
+    font-weight: bold;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+.list-group-item {
+    font-weight: 400;
+    font-size: 0.6875rem;
+}
+
+/*Sections*/
+.pink {
+    background-color: #E83E8C;
+}
+nav a {
+    font-weight: 400;
+    font-size: 1rem;
+}
+nav img {
+    max-width: 130px;
+}
+
+#cards {
+    color: #212529;
+}
+.card {
+    width: 248px;
+    margin: 0 2rem;
+}
+.card img {
+    width: 245px;
+    height: 132px;
+    object-fit: cover;
+}
+.card-body a{
+    font-weight: 400;
+    font-size: 0.6875rem;
+    color: #1C7CD5;
+}
+.icons-section {
+    background: #17a2b8;
+}
+i {
+    max-width: 4.375rem;
+}
+
+/*Footer*/
+footer {
+    height: 10.625rem;
+    width: 100%;
+}
+.logo {
+    display: block;
+    height: 6.278125rem;
+
+}
+
+@media (max-width: 760px) {
+    #texto-title {
+        font-weight: 700;
+        font-size: 2.1875rem;
+    }
+    .container{
+        margin-right: 10%;
+    }
+   
+    .logo {
+        margin-top: 15%;
+        height: 6.25rem; 
+    }
+}
